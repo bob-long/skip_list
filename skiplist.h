@@ -3,10 +3,13 @@
  * 
  * A simple class template that implements the skip list data struct.
  *
- * The heads and tails are created as sentinel value to make the coding
+ * The heads and tails are created as sentinel values to make the coding
  * easier.
  * 
- * The underlying data structure is a doubled linked list.
+ * The underlying data structure is a doubled linked list plus a below pointer.
+ *
+ * note, there is no duplicate in the list, and insert a value already in the list
+ * will not change the list.
  *
  */
  
